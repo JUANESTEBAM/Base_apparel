@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./src/css/styles.css">
+
+</head>
+<body>
+
+  <main class="container">
+    <div class="container__logo">
+      <img src="./images/logo.svg" alt="">
+    </div>
+    <div class="container__base">
+      <div class="container__base--content">
+        <h1>We're <span>coming</span><span>soon</span></h1>
+      
+        <p class="container__base--content_message">Hello fellow shoppers! We're currently building our new fashion store. 
+          Add your email below to stay up-to-date with announcements and our launch deals.</p>
+        
+        <form class="container__base--content-email">
+          <div class="email__box">
+            <input class="email__box--input" type="text" placeholder="Email Address">
+            <div class="email__box--error">
+              <img class="email__box--error-icon hidden" src="./images/icon-error.svg" alt="">
+            </div>
+            <button><img src="./images/icon-arrow.svg" alt=""></button>
+          </div>
+          <p class="container__base--content-email_error hidden">Please provide a valid email</p>
+        </form>
+
+      </div>
+    </div>
+    <div class="container__image">
+      <img src="./images/hero-desktop.jpg" alt="">
+    </div>
+  </main>
+
+  
+  <footer class="attribution">
+    <p class="attribution__text">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/giovanigomez1" target="_blank">Giovani</a>.
+    </p>
+  </footer>
+
+  <script src="./src/components/js/index.js"></script>
+</body>
+</html>

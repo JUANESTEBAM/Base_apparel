@@ -1,0 +1,27 @@
+.Wrapper {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./assets//images/bg-pattern-desktop.svg"),
+    linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 66vw;
+}
+
+@media (max-width: 376px) {
+  .Wrapper {
+    flex-direction: column;
+    background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+  }
+
+  .Wrapper :nth-child(1) {
+    order: 1;
+  }
+  .Wrapper :nth-child(2) {
+    order: 3;
+  }
+  .Wrapper :nth-child(3) {
+    order: 2;
+  }
+}
